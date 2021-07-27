@@ -263,9 +263,9 @@ li{
     transition: color;
 }
 
-.fa-facebook-square:hover{
+/* .fa-facebook-square:hover{
     color: #4267b2;
-}
+} */
 
 .fa-twitter-square:hover{
     color: #38a1f3;
@@ -275,6 +275,10 @@ li{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.fa-github-square:hover{
+    color:#313534;
 }
 /*End about*/
 
