@@ -271,6 +271,10 @@ li{
     flex: 1;
 }
 
+.about-details p{
+    text-align: justify;
+}
+
 .social-media{
     margin-top: 5rem;
 }
@@ -328,21 +332,23 @@ li{
 }
 
 .icon-container{
-    width: 10rem;
-    height: 10rem;
+    width: 30rem;
+    height: 15rem;
     border: 3px solid #ff3838;
     background-color: #fd5757;
     margin-bottom: 2rem;
     display: flex;
-    transform: rotate(45deg);
 }
 
-.icon-container i{
-    color: #ffe838;
-    font-size: 5rem;
-    margin: auto;
-    transform: rotate(-45deg);
+.hackathon .cta{
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #3883ff;
+    transition: color 650ms;
 }
+
 /*End Achievements*/
 
 /*Start portfolio*/
