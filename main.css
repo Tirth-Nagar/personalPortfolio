@@ -490,6 +490,7 @@ form label{
 input,
 select,
 textarea{
+    font-size: 1.5rem;
     width: 100%;
     resize: none;
     padding: 1rem;
